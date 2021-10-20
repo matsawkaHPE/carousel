@@ -9,8 +9,49 @@ body {
     width: 94%;
         margin-left:10px;
     margin-top: 0;
-    z-index: 4;
+    z-index: 2;
     cursor: pointer;
     height: 93%;
     background-color:blue;
+}
+/* .text {
+	z-index:10;
+	color:white;
+	position: absolute;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 94%;
+        margin-left:3%;
+    
+    z-index: 2;
+} */
+.carouselText {
+width: 48vw;
+z-index:3;
+}
+.heroText {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.homepageCarousel .heroTitle {
+
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+margin-top: 0px;
+    -webkit-line-clamp: 2;
+}
+.homepageCarousel .heroSummary {
+
+    overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+margin-top: 0px;
+    -webkit-line-clamp: 2;
 }
